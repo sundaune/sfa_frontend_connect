@@ -44,4 +44,5 @@ Author URI: http://themesdepot.org
 
 	// Load this shiz.
 	if ( class_exists( 'Tdp_frontend_WP_Modal_Login' ) )
+		tdp_fep_load_textdomain();
 		$wp_modal_login_class = new Tdp_frontend_WP_Modal_Login;
